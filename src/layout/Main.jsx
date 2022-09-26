@@ -3,7 +3,7 @@ import Counter from "../components/Counter"
 
 function Main() {
   return (
-    <div className="min-h-full flex justify-center items-center">
+    <div className="flex flex-col justify-center items-center min-w-full">
       <Counter />
     </div>
   )

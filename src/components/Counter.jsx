@@ -19,11 +19,10 @@ function Counter() {
     { id: 5, name: " -10 ", action: HandleSubstract10 },
   ]
   return (
-    <>
-      <div className="flex flex-col justify-center items-center">
-        <div className="Top m-4 text-center">
-          <h1>CounterApp</h1>
-          <h2>{counter}</h2>
+      <div className="caja flex flex-col justify-center items-center">
+        <div className="m-4 text-center">
+          <h1 className="font-extrabold">CounterApp</h1>
+          <h2 className="font-bold">{counter}</h2>
         </div>
         <div className="Bot">
           {/* render objet btns */}
@@ -36,7 +35,6 @@ function Counter() {
           ))}
         </div>
       </div>
-    </>
   )
 }
 
